@@ -47,8 +47,8 @@ public class TestBase {
 	 public static void initialization()
 	 {
 		 
-		 //Singleton pattern
-		 if(driver == null)
+		//Singleton pattern
+		if(driver == null)
 		{
 			String browserName = prop.getProperty("browser");
 			if (browserName.equals("chrome"))
